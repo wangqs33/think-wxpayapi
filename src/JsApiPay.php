@@ -2,7 +2,7 @@
 
 namespace qingsong\wxpayapi;
 
-use qingsong\wxpayapi\data\WxPayConfig;
+use qingsong\wxpayapi\WxPayConfig;
 use qingsong\wxpayapi\data\WxPayApi;
 use qingsong\wxpayapi\data\WxPayJsApiPay;
 
