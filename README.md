@@ -10,7 +10,13 @@ composer require qingsong/think-wxpayapi
 
 ## 调用方法
 ```
+        $tools = new \qingsong\wxpayapi\JsApiPay();
 
+	$input = new \qingsong\wxpayapi\data\WxPayUnifiedOrder(); 
+
+	$order = \qingsong\wxpayapi\WxPayApi::unifiedOrder($input);
+
+	$notify = new \qingsong\wxpayapi\PayNotifyCallBack();
 ```
 
 ## 删除包
