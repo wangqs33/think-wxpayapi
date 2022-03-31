@@ -6,7 +6,7 @@ namespace qingsong\wxpayapi;
  * @author widyhu
  *
  */
-class WxPayException extends Exception {
+class WxPayException extends \Exception {
 	public function errorMessage()
 	{
 		return $this->getMessage();
